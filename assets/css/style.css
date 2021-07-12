@@ -1,0 +1,45 @@
+:root {
+  --background: #1A222C;
+  --text: #CCCCCC;
+}
+
+
+#particles-js {
+  background-color: var(--background);
+}
+
+#body {
+  background-color: var(--background);
+}
+
+p, h1, h2 {
+  color: var(--text);
+}
+
+
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  z-index: 1;
+  text-align: center;
+  color: var(--text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.idk {
+  font-family: "Montserrat", sans-serif;
+  z-index: 1;
+  text-align: center;
+  color: var(--text);
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
