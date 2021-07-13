@@ -1,8 +1,14 @@
 :root {
   --background: #1A222C;
-  --text: #CCCCCC;
+  --text: #ffffff;
+  --background-white: #FFFFFF;
+  --text-black: #222222;
+  --text-grey: #
 }
 
+.test {
+  background-color: var(--background);
+}
 
 #particles-js {
   background-color: var(--background);
@@ -12,15 +18,10 @@
   background-color: var(--background);
 }
 
-p, h1, h2 {
-  color: var(--text);
-}
-
 
 
 .header {
-  font-family: "Montserrat", sans-serif;
-  z-index: 1;
+  font-family: 'Open Sans', sans-serif;  z-index: 1;
   text-align: center;
   color: var(--text);
   position: absolute;
@@ -29,17 +30,31 @@ p, h1, h2 {
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  font-size: 300%;
 }
 
 .idk {
-  font-family: "Montserrat", sans-serif;
-  z-index: 1;
+  font-family: 'Open Sans', sans-serif;  z-index: 1;
   text-align: center;
-  color: var(--text);
+  color: var(--text-black);
   position: absolute;
-  top: 120%;
-  left: 50%;
-  margin: 0 auto;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  top: 100%;
+  left: 7%;
+  right: 7%;
+  background-color: var(--background-white);
+  border-radius: 20px;
+
+}
+
+
+.title {
+  color: var(--text);
+  font-size: 35px;
+}
+
+.footer {
+  background-color: var(--background);
+  color: var(--text);
+  text-align: center;
+  
 }
