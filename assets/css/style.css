@@ -1,10 +1,21 @@
 :root {
-  --background: #1A222C;
-  --text: #ffffff;
-  --background-white: #FFFFFF;
-  --text-black: #222222;
-  --text-grey: #
+  --background: #fff;
+  --text: #ccc;
+  --background-white: #fff;
+  --text-black: #ccc;
+
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #2B2A33;
+    --text: #ffffff;
+    --background-white: #1C1B22;
+    --text-black: #222222;
+  
+  }
+}
+
 
 .test {
   background-color: var(--background);
@@ -36,13 +47,14 @@
 .idk {
   font-family: 'Open Sans', sans-serif;  z-index: 1;
   text-align: center;
-  color: var(--text-black);
+  color: var(--text);
   position: absolute;
   top: 100%;
   left: 7%;
   right: 7%;
   background-color: var(--background-white);
   border-radius: 20px;
+  box-shadow: 0px 0px 5px #0E1111;
 
 }
 
@@ -56,5 +68,5 @@
   background-color: var(--background);
   color: var(--text);
   text-align: center;
-  
+
 }
